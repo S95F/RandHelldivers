@@ -1,0 +1,200 @@
+{
+  "variations": [
+    {
+      "name": "Grenades",
+      "data": {
+        "variations": [
+          "G-10 Incendiary",
+          "G-12 High Explosive",
+          "G-123 Thermite",
+          "G-13 Incendiary Impact",
+          "G-16 Impact",
+          "G-23 Stun",
+          "G-3 Smoke",
+          "G-6 Frag"
+        ],
+        "maxWidth": 68,
+        "maxHeight": 140,
+        "minWidth": 34,
+        "minHeight": 86
+      }
+    },
+    {
+      "name": "Primary",
+      "data": {
+        "variations": [
+          {
+            "name": "AR",
+            "data": {
+              "variations": [
+                "AR-23 Liberator",
+                "AR-23C Liberator Concussive",
+                "AR-23P Liberator Penetrator",
+                "AR-61 Tenderizer",
+                "BR-14 Adjudicator"
+              ]
+            }
+          },
+          {
+            "name": "Energy Based",
+            "data": {
+              "variations": [
+                "ARC-12 Blitzer",
+                "LAS-16 Sickle",
+                "LAS-5 Scythe",
+                "PLAS-1 Scorcher",
+                "PLAS-101 Purifier",
+                "SG-8P Punisher Plasma"
+              ]
+            }
+          },
+          {
+            "name": "Explosive",
+            "data": {
+              "variations": [
+                "CB-9 Exploding Crossbow",
+                "JAR-5 Dominator",
+                "R-36 Eruptor"
+              ]
+            }
+          },
+          {
+            "name": "Marksman Rifle",
+            "data": {
+              "variations": [
+                "R-63 Diligence",
+                "R-63CS Diligence Counter Sniper"
+              ]
+            }
+          },
+          {
+            "name": "Shotgun",
+            "data": {
+              "variations": [
+                "SG-225 Breaker",
+                "SG-225IE Breaker Incendiary",
+                "SG-225SP Breaker Spray&Pray",
+                "SG-8 Punisher",
+                "SG-8S Slugger"
+              ]
+            }
+          },
+          {
+            "name": "smg",
+            "data": {
+              "variations": [
+                "MP-98 Knight",
+                "SMG-37 Defender",
+                "SMG-72 Pummeler"
+              ]
+            }
+          }
+        ],
+        "maxWidth": 232,
+        "maxHeight": 101,
+        "minWidth": 197,
+        "minHeight": 66
+      }
+    },
+    {
+      "name": "Sidearms",
+      "data": {
+        "variations": [
+          "GP-31 Grenade Pistol",
+          "LAS-7 Dagger",
+          "P-113 Verdict",
+          "P-19 Redeemer",
+          "P-2 Peacemaker",
+          "P-4 Senator"
+        ],
+        "maxWidth": 164,
+        "maxHeight": 102,
+        "minWidth": 101,
+        "minHeight": 53
+      }
+    },
+    {
+      "name": "Stratagems",
+      "data": {
+        "variations": [
+          {
+            "name": "Blue Stratagems",
+            "data": {
+              "variations": [
+                "AC-8 Autocannon",
+                "APW-1 Anti-Material Rifle",
+                "ARC-3 Arc Thrower",
+                "AX-AR-23 Guard Dog",
+                "AX-LAS-5 Guard Dog Rover",
+                "B-1 Supply Pack",
+                "EAT-17 Expendable Anti-Tank",
+                "EXO-45 Patriot Exosuit",
+                "FAF-14 Spear",
+                "FLAM-40 Flamethrower",
+                "GL-21 Grenade Launcher",
+                "GR-8 Recoilless Rifle",
+                "LAS-98 Laser Cannon",
+                "LAS-99 Quasar Cannon",
+                "LIFT-850 Jump Pack",
+                "MG-206 Heavy Machine Gun",
+                "MG-43 Machine Gun",
+                "RL-77 Airburst Rocket Launcher",
+                "RS-422 Railgun",
+                "SH-20 Ballistic Shield Backpack",
+                "SH-32 Shield Generator Pack",
+                "Stalwart"
+              ]
+            }
+          },
+          {
+            "name": "Green Stratagems",
+            "data": {
+              "variations": [
+                "A-AC-8 Autocannon Sentry",
+                "A-ARC-3 Tesla Tower",
+                "A-G-16 Gatling Sentry",
+                "A-M-12 Mortar Sentry",
+                "A-M-23 EMS Mortar Sentry",
+                "A-MG-43 Machine Gun Sentry",
+                "A-MLS-4X Rocket Sentry",
+                "E-MG-101 HMG Emplacement",
+                "FX-12 Shield Generator Relay",
+                "MD-6 Anti-Personnel Minefield",
+                "MD-I4 Incendiary Mines"
+              ]
+            }
+          },
+          {
+            "name": "Red Stratagems",
+            "data": {
+              "variations": [
+                "Eagle 110MM Rocket Pods",
+                "Eagle 500kg Bomb",
+                "Eagle Airstrike",
+                "Eagle Cluster Bomb",
+                "Eagle Napalm Airstrike",
+                "Eagle Smoke Strike",
+                "Eagle Strafing Run",
+                "Orbital 120MM He Barrage",
+                "Orbital 380MM He Barrage",
+                "Orbital Airburst Strike",
+                "Orbital EMS Strike",
+                "Orbital Gas Strike",
+                "Orbital Gatling Barrage",
+                "Orbital Laser",
+                "Orbital Precision Strike",
+                "Orbital Railcannon Strike",
+                "Orbital Smoke Strike",
+                "Orbital Walking Barrage"
+              ]
+            }
+          }
+        ],
+        "maxWidth": 46,
+        "maxHeight": 43,
+        "minWidth": 34,
+        "minHeight": 26
+      }
+    }
+  ]
+}

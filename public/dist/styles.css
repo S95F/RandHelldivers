@@ -1,0 +1,110 @@
+.Grenades {
+  min-width: 68px;
+  min-height: 140px;
+  flex-basis: calc(50% - 20px);
+}
+
+.Primary {
+  min-width: 232px;
+  min-height: 101px;;
+  flex-basis: 100%;
+}
+
+.Sidearms {
+  min-width: 164px;
+  min-height: 102px;
+  flex-basis: calc(50% - 20px);
+}
+
+.Stratagems {
+  min-width: 46px;
+  min-height: 43px;
+  flex-basis: calc(25% - 20px);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width:100vw;
+    font-family: Arial, sans-serif;
+    flex-direction:column;
+    background:grey;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    max-width: 300px;
+}
+
+.item {
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    border-radius: 5px;
+}
+.item:nth-child(2) {
+    order: 2;
+}
+
+.item:nth-child(3) {
+    order: 3;
+}
+
+.item:nth-child(4),
+.item:nth-child(5),
+.item:nth-child(6),
+.item:nth-child(7) {
+    order: 4;
+}
+
+.button {
+    border: none;
+    background: none;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+/* Tooltip Styles */
+.item[data-tooltip] {
+    position: relative;
+}
+
+.item[data-tooltip]::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s ease;
+}
+
+.item[data-tooltip]:hover::before {
+    opacity: 1;
+}
+
