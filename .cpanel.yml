@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/tenexqmh/randhelldivers.lol/
+    - /bin/cp -R public/dist $DEPLOYPATH
+    - /bin/cp -R public/loadout $DEPLOYPATH
+    - /bin/cp public/index.html $DEPLOYPATH
