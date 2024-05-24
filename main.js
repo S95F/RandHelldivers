@@ -58,10 +58,10 @@ io.on('connection', (socket) => {
     });
 });
 
-var htmlPath = path.join(__dirname, 'public');console.log(htmlPath);
-app.use(serveStatic(htmlPath));
+//var htmlPath = path.join(__dirname, 'public');console.log(htmlPath);
+//app.use(serveStatic(htmlPath));
 
-server.listen(80);
+//server.listen(80);
 
 // Load the JSON data
 
